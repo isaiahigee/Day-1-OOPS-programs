@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+	string a,b;
+	cout<<"Enter THE USER NAME: ";
+	cin>>a;
+	cout<<"RE-ENTER THE USER NAME: ";
+	cin>>b;
+	if(a==b)
+	{
+		cout<<"THE USER NAME IS CORRECT";
+	}
+	else
+	{
+		cout<<"INCORRECT USER NAME";
+	}
+}
